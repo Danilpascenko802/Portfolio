@@ -1,0 +1,67 @@
+#body {
+    background-color: rgb(204, 204, 204);
+}
+.img {
+    width: 550px;
+    height: 550px;
+}
+#header {
+    position: absolute;
+    position: fixed;
+    background-color: rgb(50, 50, 50);
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-flow: row;
+    align-content: space-around;
+    padding-top: 20px;
+}
+#hireButton {
+  position: absolute;
+  position: fixed;
+  right: 10px;
+  bottom: 50px;
+  background-color: rgb(54, 54, 54);
+  color: rgb(201, 20, 201);
+  font-size: 25px;
+  padding: 65px 20px 65px 20px;
+  border: none;
+  border-radius: 50%;
+}
+#hireButton:hover {
+  background-color: rgb(30, 30, 30);
+  border: none;
+}
+
+#hireButton:active {
+  background-color: rgb(106, 11, 106);
+  border: none;
+}
+
+#mainTitle {
+  padding: 0px 0 20px 20px;
+  color: rgb(133, 133, 133);
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  width: 30%;
+}
+
+.navList {
+  display: flex;
+  flex-wrap: nowrap;
+  width: auto;
+  display: inline-block;
+  width: 70%;
+}
+.navList_item {
+  font-size: 28px;
+  text-align: center;
+  width: 20%;
+  padding: 5px 10px 10px 10px;
+  display: inline-block;
+}
+.navList_item:hover {
+  color: rgb(126, 126, 126);
+}
