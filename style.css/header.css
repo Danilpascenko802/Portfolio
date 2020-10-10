@@ -1,0 +1,50 @@
+#header {
+    /* position: absolute; */
+    position: fixed;
+    background-color: rgb(50, 50, 50);
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-content: space-around;
+    padding-top: 20px;
+    z-index: 99999;
+  }
+  #mainTitle {
+    padding: 10px 0 20px 20px;
+    color: rgb(201, 189, 20);
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+  }
+  
+  .navList {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    display: inline-block;
+    width: 70%;
+    text-align: right;
+  }
+  .navList_item_cover {
+    text-align: center;
+    display: inline-block;
+    padding: 5px 10px 10px 10px;
+    width: 20%;
+  }
+  .navList_item {
+    font-size: 28px;
+    text-align: center;
+    display: inline-block;
+    border-bottom: none;
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+  }
+  .navList_item:hover {
+    color: rgb(201, 189, 20);
+  }
+  
+  
+  

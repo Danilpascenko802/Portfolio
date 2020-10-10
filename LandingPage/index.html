@@ -1,53 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css/style.css" />
     <title>Portfolio</title>
-</head>
+  </head>
 
-<body id="body">
+  <body id="body">
     <header id="header">
-        <h1 id="mainTitle">Danil's portfolio</h1>
-        <ul class="list navList">
-            <li><a href="#" class="navList_item"> About</a></li>
-            <li><a href="#" class="navList_item">Sertificates</a></li>
-            <li><a href="#" class="navList_item">Contact</a></li>
-        </ul>
+      <h1 id="mainTitle">Danil's portfolio</h1>
+      <ul class="list navList">
+        <li class="navList_item_cover">
+          <a href="1Link" class="navList_item"> About</a>
+        </li>
+        <li class="navList_item_cover">
+          <a href="2Link" class="navList_item">Skills</a>
+        </li>
+        <li class="navList_item_cover">
+          <a href="3Link" class="navList_item">Sertificates</a>
+        </li>
+        <li class="navList_item_cover">
+          <a href="4Link" class="navList_item">Contact</a>
+        </li>
+      </ul>
     </header>
-    
+
     <main id="main">
-        <div class="skill_box">
-            <ul id="hardSkill_list">
-                <li class="hardSkills-_list-Item"></li>
-                <li class="hardSkills-_list-Item"></li>
-                <li class="hardSkills-_list-Item"></li>
-                <li class="hardSkills-_list-Item"></li>
-                <li class="hardSkills-_list-Item"></li>
-            </ul>
-            <ul id="softSkill_list">
-                <li class="softSkills_list-Item"></li>
-                <li class="softSkills_list-Item"></li>
-                <li class="softSkills_list-Item"></li>
-                <li class="softSkills_list-Item"></li>
-                <li class="softSkills_list-Item"></li>
-                <li class="softSkills_list-Item"></li>
-            </ul>
-            <ul id="hobbyList">
-                
-            </ul>
-        </div>
-        
-        
-        <button id="hireButton">HIRE NOW</button>
+
+      <div id="avatar">
+        <img src="../Images/photo_2020-08-04_11-28-33 (2).jpg" alt="My Photo" id="avatar_img">
+      </div>
+
+      <ol class="skill_box" name="2Link">
+        <li class="skill_box_item">
+          <h2 class="skills_title">Hard skills</h2>
+
+          <ul class="skill_box_item-list">
+            <li class="skill_box_item-list-Item">HTML/CSS</li>
+            <li class="skill_box_item-list-Item">JavaScript</li>
+          </ul>
+        </li>
+
+        <li class="skill_box_item">
+          <h2 class="skills_title">Soft skills</h2>
+
+          <ul class="skill_box_item-list">
+            <li class="skill_box_item-list-Item">Fast learning</li>
+            <li class="skill_box_item-list-Item">
+              I can google and find the information I need
+            </li>
+            <li class="skill_box_item-list-Item">I hear people</li>
+            <!-- <li class="skill_box_item-list-Item"></li> -->
+            <!-- <li class="skill_box_item-list-Item"></li> -->
+          </ul>
+        </li>
+
+        <li class="skill_box_item">
+          <h2 class="skills_title">Hobby</h2>
+
+          <ul class="skill_box_item-list">
+            <li class="skill_box_item-list-Item">Sport</li>
+            <li class="skill_box_item-list-Item">Programming</li>
+            <li class="skill_box_item-list-Item">Learning German</li>
+            <li class="skill_box_item-list-Item">Business</li>
+            <li class="skill_box_item-list-Item">Psyhology</li>
+            <!-- <li class="skill_box_item-list-Item"></li> -->
+          </ul>
+        </li>
+      </ol>
+
+      <button id="hireButton">HIRE NOW</button>
+      <div id="modal_window"></div>
     </main>
     <footer id="footer"></footer>
 
-
-
-
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
