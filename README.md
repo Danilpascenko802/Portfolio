@@ -1,1 +1,1 @@
-link for site - https://danilpascenko802.github.io/Portfolio/LandingPage/index.html
+link for site - https://danilpascenko802.github.io/Portfolio/Верстка/site/index.html
