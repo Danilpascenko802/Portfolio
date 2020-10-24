@@ -3,7 +3,8 @@
 #body {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
-    background-color: black;
+    background-color: #fafafc;
+    max-width: screen;
 }
 
 #header {
@@ -100,13 +101,17 @@
 }
 
 #headerSmartphone {
-    padding: 20px 0 0 0;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 80%;
+    left: 50%;
 }
 
 #main {
     position: relative;
 }
 
+/* ******* BOX_01 ********/
 #box01_bg {
     width: 100%;
     z-index: 19;
@@ -119,31 +124,90 @@
 #box_01 {
     background-color: #fafafc;
     background-position: 50% 0;
-    padding: 550px 0 0 0;
+    padding: 550px 0 100px 0;
     display: block;
     width: 100%;
-    height: 600px;
+    height: auto;
     position: relative;
     z-index: 20;
 }
 
 #box_01PhonePhoto {
     position: absolute;
-    top: 150px;
-    left: 100px;
+    top: 250px;
+    left: 330px;
 }
-#box01_list{
 
-}
-#box01_list_item{
-    position: relative;
+.box_list_item {
+    position: absolute;
+    display: inline-block;
     height: 320px;
-    width: 240px;
-    background-color: violet;
+    width: 270px;
+    background-color: #ffffff;
+
+    box-shadow: 0px 8px 15px -5px rgba(0, 0, 0, 0.26);
+    -webkit-box-shadow: 0px 8px 15px -5px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 8px 15px -5px rgba(0, 0, 0, 0.26);
 }
-.box01_list_item-title{
-    font-size: 18px;
+
+#box_list_item01 {
+    top: 50px;
+    left: 900px;
 }
-.box01_list_item-text{
-    width: 250px;
+
+#box_list_item02 {
+    top: 475px;
+    left: 800px;
+}
+
+#box_list_item03 {
+    top: 100px;
+    left: 1250px;
+}
+
+#box_list_item04 {
+    top: 550px;
+    left: 1200px;
+}
+
+.box_list_item-img {
+    display: block;
+    margin: 60px 0px 0 100px;
+}
+
+#box03_list_item-img {
+    margin-left: 110px;
+}
+
+#box04_list_item-img {
+    margin-left: 115px;
+}
+
+.box_list_item-title {
+    padding: 20px 10px 20px 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.box_list_item-text {
+    color: #6a6d89;
+    font-size: 14px;
+    opacity: 0.7;
+    line-height: 27px;
+    word-break: break-word;
+    width: 100px;
+}
+
+/* BOX_01 */
+/* ******************************** */
+/* BOX_02 */
+#box02 {
+    padding: 500px 0 0 0;
+    height: 600px;
+    width: 100%;
+    display: block;
+    
+}
+#box02_TextBox{
+    
 }
